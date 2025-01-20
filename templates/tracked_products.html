@@ -311,56 +311,6 @@ function renderGraph(productLink, graphDiv) {
         });
 }
 
-
-//     document.addEventListener('DOMContentLoaded', () => {
-//     const refreshButton = document.getElementById('refreshPricesButton');
-
-//     refreshButton.addEventListener('click', () => {
-//         console.log("Refresh button clicked");
-//         fetch('/refresh-prices', {
-//             method: 'POST',
-//             headers: {
-//                 'Content-Type': 'application/json',
-//             },
-//         })
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log("Refresh response data:", data);
-
-//             if (data.error) {
-//                 alert(`Error: ${data.error}`);
-//                 return;
-//             }
-
-//             if (data.updated_products && data.updated_products.length > 0) {
-//                 data.updated_products.forEach(product => {
-//                     const productLink = product.product_link;
-//                     const newPrice = product.new_price;
-
-//                     console.log(`Updating graph for product: ${productLink} with new price: ${newPrice}`);
-
-//                     // Find the graph div for this product
-//                     const graphDiv = document.querySelector(`[data-product-link="${productLink}"]`);
-
-//                     if (graphDiv) {
-//                         // Fetch the updated price history and re-render the graph
-//                         renderGraph(productLink, graphDiv);
-//                     }
-//                 });
-
-//                 alert("Prices refreshed and updated!");
-//             } else {
-//                 alert("No price changes detected.");
-//             }
-//         })
-//         .catch(error => {
-//             console.error("Error while refreshing prices:", error);
-//             alert("An error occurred while refreshing prices.");
-//         });
-//     });
-// });
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const refreshButton = document.getElementById('refreshPricesButton');
     const overlay = document.createElement('div');
