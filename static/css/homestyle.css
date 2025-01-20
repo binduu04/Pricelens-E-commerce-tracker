@@ -191,20 +191,6 @@
         }
 
         /* Top Deals Section */
-        /* #top-deal {
-            margin: 0 auto; 
-            width: calc(100% - 70px); 
-            padding-left: 10px; 
-            padding-right: 10px; 
-        }
-        
-        #top-deals {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr); 
-            gap: 0.05rem; 
-            
-        } */
-        
         #top-deal {
             margin: 0 auto; 
             max-width: calc(100%-70px); 
