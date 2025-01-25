@@ -26,7 +26,7 @@
 3. Install the required dependencies
 4. Run the Flask application:
  ```bash
-    python app.py
+ python app.py
  ```
 5. Open the application in your browser
 ## Usage  
