@@ -26,8 +26,8 @@
 3. Install the required dependencies
 4. Run the Flask application:
  ```bash
- python app.py
- ```
+    python app.py
+   ```
 5. Open the application in your browser
 ## Usage  
 1. **Sign Up or Log In**: Create an account or log in to search products and add them to track.  
